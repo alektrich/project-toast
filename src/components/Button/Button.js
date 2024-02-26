@@ -5,7 +5,7 @@ import styles from "./Button.module.css";
 function Button({ className = "", ...delegated }) {
   return (
     <button
-      type="button"
+      type="submit"
       className={`${styles.button} ${className}`}
       {...delegated}
     />
